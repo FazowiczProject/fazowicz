@@ -1,0 +1,7 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: fazowicz-sec
+  namespace: fazowicz
+data:
+  token: RmF6b3dpY3ogZG9zdGHFgiBlcmVrY2ppCg== # replace with your Discord bot token encoded in base64
